@@ -21,10 +21,18 @@
 <div class="bg">
     <h1 class="title">WANTED</h1>
     <div class = "image"> 
-        <img id="wanted-photo" src="https://picsum.photos/400/600" alt="Random Image">
-    </div>
+        <img id="wanted-photo" src="<%= data._links.thumbnail.href %>" alt="<%= data.name %>">    </div>
     <div class="name">
-        <h2 style="color: white;">Name</h2>
+        
+        <h2 style="color: white;">
+            <%= data.name %>
+        </h2>
+        <ul>
+            <li>Info One</li>
+            <li>Info Two</li>
+            <li>Info 3</li>
+            <li>Info 4</li>
+        </ul>
     </div>
 </div>
 

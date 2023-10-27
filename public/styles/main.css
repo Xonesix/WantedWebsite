@@ -19,6 +19,11 @@
     padding: 0;
     margin: 0;
 }
+img {
+    width: 400px;  /* or any value */
+    height: 600px; /* or any value */
+    object-fit: cover;
+}
 
 .image {
     grid-row-start: 2;
@@ -42,10 +47,22 @@
     font-size: 4rem;
     margin:0px;
     padding: 0px;
+    display: flex;
+    flex-direction: column;
 }
 .name > h2
 {
+    font-size: 3rem;
     margin:0px;
     padding:0px;
     font-family: "Share Tech Mono", monospace;
+}
+li
+{
+    color:white;
+    font-size: 30px;
+    font-family: "Share Tech Mono", monospace;
+}
+body {
+    padding: 50px;
 }
