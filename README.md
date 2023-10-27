@@ -9,4 +9,4 @@
 ```npm i```
 - Then run
 ```node index.js```
-- The Server should now be hosted on localhost:300
+- The Server should now be hosted on localhost:3000
