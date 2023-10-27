@@ -5,8 +5,8 @@
 - It uses NodeJS, Express, Axios, and the Interpol API to use this.
 
 ## How to Use It
-Install Node Packages using
+- Install Node Packages using
 ```npm i```
-Then run
+- Then run
 ```node index.js```
-The Server should now be hosted on localhost:300
+- The Server should now be hosted on localhost:300
