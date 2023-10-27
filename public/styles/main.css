@@ -1,0 +1,51 @@
+.title {
+    color: rgb(238, 78, 78);
+    grid-row-start: 1;
+    grid-column-start: 2;
+    font-family: "Fjalla One", sans-serif;
+    text-align: center;
+    font-size: 5rem;
+    padding: 0;
+    margin: 0;
+}
+
+.bg {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr; /* Adjust row heights as needed */
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 100vh; /* Fill the viewport height */
+    justify-content: center;
+    align-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.image {
+    grid-row-start: 2;
+    grid-column: 1; /* Updated to place it in the same column as the title */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0; /* Optional: Add padding to the image section */
+    margin: 0;
+}
+
+#wanted-photo {
+    border: solid rgb(238, 78, 78) 5px;
+    margin: 0;
+    padding: 0;
+}
+
+.name {
+    grid-column-start: 3; /* Position it in column 3 */
+    grid-row-start: 2;
+    font-size: 4rem;
+    margin:0px;
+    padding: 0px;
+}
+.name > h2
+{
+    margin:0px;
+    padding:0px;
+    font-family: "Share Tech Mono", monospace;
+}
